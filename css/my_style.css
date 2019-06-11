@@ -1,0 +1,349 @@
+body > header, 
+.article_list_view_one section{
+    padding-left: 80px;
+    padding-right: 80px
+}
+body > header{
+    background-color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+body > header .logo img{
+    width: 150px;
+    height: 50px;
+}
+body > header .nav_bar{
+    padding-top: 15px
+}
+body > header .nav_bar .nav_bar_item{
+    display: inline-block;
+}
+body > header .nav_bar .nav_bar_item + .nav_bar_item{
+    margin-left: 35px
+}
+body > header .nav_bar .nav_bar_item a{
+    color: #c1c1c1;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+body > header .nav_bar .nav_bar_item a:hover{
+    color: black;
+    text-decoration: none
+}
+body > header .nav_bar .nav_bar_item:nth-child(1) a{
+    color: black
+}
+body > header .icons_nav{
+    padding-top: 15px
+}
+body > header .icons_nav img{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 15px
+}
+.article_grand_plant .item{
+    text-align: center
+}
+.article_grand_plant .item .desc{
+    padding-top: 120px
+}
+.article_grand_plant .item .image{
+    width: 250px;
+    height: 250px;
+}
+.article_grand_plant .item input{
+    background-color: #282828;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold
+}
+.article_grand_plant .item .title{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+.article_grand_plant .item .price{
+    font-size: 1.5rem;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.article_list_view_one header{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.article_list_view_one header .label{
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: none;
+    color: #000;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+.article_list_view_one section .item{
+    width: 250px;
+    margin-bottom: 100px;
+    position: relative
+}
+.article_list_view_one section .item .image{
+    height: 350px;
+    background-color: #f0eff0;
+    padding: 15px;
+}
+.article_list_view_one section .item .image img{
+    width: 100%;
+    height: 280px;
+}
+.article_list_view_one section .item .shop_btn{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    width: 100%;
+    text-align: center
+}
+.article_list_view_one section .item .shop_btn input{
+    background-color: #282828;
+    border-radius: 100px;
+    color: white;
+    width: 200px;
+}
+.article_list_view_one section .item .desc{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+.article_list_view_one section .item .title{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+.article_list_view_one section .item .price{
+    font-size: 15px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #666;
+}
+.article_list_view_one footer{
+    background-color: #5b00fc;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center
+}
+.article_list_view_one footer input{
+    width: 250px;
+    background-color: transparent;
+    border: white 1px solid;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px
+}
+.ecommerce_nav_bar .item{
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 2px -2px gray;
+}
+.ecommerce_nav_bar .item:hover{
+    background-color: #f2f2f2
+}
+.ecommerce_nav_bar .item .icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.ecommerce_nav_bar .item .label{
+    color: #333;
+    line-height: inherit;
+    font-family: poppins,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .8px;
+}
+.ecommerce_nav_bar .item .status{
+    color: #333;
+    line-height: inherit;
+    font-family: poppins,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    letter-spacing: .8px;
+}
+.ecommerce_nav_bar .item .desc{
+    padding-top: 7px
+}
+.list_article{
+    margin-top: 50px
+}
+.article_list_view_two header{
+    border-bottom: #ededee 2px solid;
+    height: 50px;
+    padding-right: 80px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.article_list_view_two header .label{
+    font-size: 20px;
+    color: #333;
+    letter-spacing: .25px;
+    font-family: poppins,Arial,Helvetica,sans-serif;
+    border-bottom: #5b00fc 2px solid;
+    padding-bottom: 14px;
+    padding-top: 4px
+}
+.article_list_view_two header .link_all{
+    border-top: #5b00fc 2px solid;
+    padding-bottom: 14px;
+    padding-top: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: #ededee 2px solid;
+    border-right: #ededee 2px solid;
+    background-color: white;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: .8px;
+    font-family: poppins,Arial,Helvetica,sans-serif;
+    color: #5b00fc;
+    text-align: center
+}
+.article_list_view_two section .item{
+    width: 270px;
+    margin-bottom: 18px
+}
+.article_list_view_two section .item .image{
+    border: #ededee 1px solid;
+    border-bottom: #ededee 3px solid;
+    height: 350px;
+    padding: 5px;
+    cursor: pointer;
+}
+.article_list_view_two section .item .image:hover{
+    border-color: #5b00fc
+}
+.article_list_view_two section .item .image img{
+    width: 100%;
+    height: 100%;
+}
+.article_list_view_two section .item .desc{
+    padding: 10px;
+}
+.article_list_view_two section .item .desc .title{
+    color: #333;
+    font-size: 14px;
+    white-space: nowrap;
+    font-weight: 400;
+    font-family: poppins,Arial,Helvetica,sans-serif;
+    letter-spacing: .25px;
+}
+.article_list_view_two section .item .desc .price{
+    color: #333;
+    font-size: 14px;
+    white-space: nowrap;
+    font-family: poppins,Arial,Helvetica,sans-serif;
+    letter-spacing: .25px;
+    font-weight: bold
+}
+.article_nav_bar{
+    width: 100%;
+    background-image: linear-gradient(to top left,#e8e9e6,#cfd0ca);
+    margin-top: 55px;
+    padding: 10px
+}
+.article_nav_bar .image{
+    width: 100%;
+    height: 130px;
+}
+.article_nav_bar .desc{
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px
+}
+.article_nav_bar .desc .label{
+    color: #363636;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+.article_nav_bar .desc .title{
+    color: #868686;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+.article_nav_bar .desc .status{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.menu_icon{
+    display: none
+}
+@media(min-width: 950px){
+    .article_grand_plant .item{
+        height: 250px;
+    }
+}
+@media(max-width: 950px){
+    body > header .nav_bar{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50px;
+        z-index: 5000;
+        background-color: white;
+        width: 100%;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        display: none
+    }
+    body > header .nav_bar .nav_bar_item{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 25px
+    }
+    body > header .nav_bar .nav_bar_item + .nav_bar_item{
+        margin-left: 0px;
+    }
+    body > header, 
+    .article_list_view_one section{
+        padding-left: 15px;
+        padding-right: 15px 
+    }
+    .menu_icon{
+        display: inline-block
+    }
+    .article_grand_plant .item{
+        padding-bottom: 20px;
+    }
+    .article_grand_plant .item .desc{
+        padding: 0px;
+        text-align: center;
+        display: block;
+        width: 100%
+    }
+    .article_grand_plant .item .desc input{
+        display: block;
+        margin: auto
+    }
+    .article_list_view_one section .item{
+        margin: auto
+    }
+    .article_list_view_two section .item{
+        margin: auto
+    }
+}
